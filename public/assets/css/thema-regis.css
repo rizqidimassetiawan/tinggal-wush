@@ -1,0 +1,125 @@
+/*
+
+	INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. link this stylesheet in the head of your HTML
+  	 <link href="YOUR PATH/thema-regis.css" rel="stylesheet" type="text/css" />
+     
+  2. Set the file name as data-theme attribute on your input
+  	 <input data-theme="my-style" />
+     
+  3. That's it!
+  
+  When you run script the style will be automatically applied.
+
+*/
+div.datedropper.thema-regis {
+  border-radius: 8px;
+  width: 180px;
+}
+div.datedropper.thema-regis .picker {
+  border-radius: 8px;
+  box-shadow: 0 0 32px 0px rgba(0, 0, 0, 0.1);
+}
+div.datedropper.thema-regis .pick-l {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+div.datedropper.thema-regis:before,
+div.datedropper.thema-regis .pick-submit,
+div.datedropper.thema-regis .pick-lg-b .pick-sl:before,
+div.datedropper.thema-regis .pick-m,
+div.datedropper.thema-regis .pick-lg-h {
+  background-color: #e02c44;
+}
+div.datedropper.thema-regis .pick-y.pick-jump,
+div.datedropper.thema-regis .pick li span,
+div.datedropper.thema-regis .pick-lg-b .pick-wke,
+div.datedropper.thema-regis .pick-btn {
+  color: #e02c44;
+}
+div.datedropper.thema-regis .picker,
+div.datedropper.thema-regis .pick-l {
+  background-color: #FFF;
+}
+div.datedropper.thema-regis .picker,
+div.datedropper.thema-regis .pick-arw,
+div.datedropper.thema-regis .pick-l {
+  color: #4D4D4D;
+}
+div.datedropper.thema-regis .pick-m,
+div.datedropper.thema-regis .pick-m .pick-arw,
+div.datedropper.thema-regis .pick-lg-h,
+div.datedropper.thema-regis .pick-lg-b .pick-sl,
+div.datedropper.thema-regis .pick-submit {
+  color: #FFF;
+}
+div.datedropper.thema-regis.picker-tiny:before,
+div.datedropper.thema-regis.picker-tiny .pick-m {
+  background-color: #FFF;
+}
+div.datedropper.thema-regis.picker-tiny .pick-m,
+div.datedropper.thema-regis.picker-tiny .pick-m .pick-arw {
+  color: #4D4D4D;
+}
+div.datedropper.thema-regis.picker-lkd .pick-submit {
+  background-color: #FFF;
+  color: #4D4D4D;
+}
+
+/* Register */
+
+div.datedropper.thema-regis{
+  border-radius: 8px;
+  width: 180px;
+}
+div.datedropper.thema-regis.picker {
+  border-radius: 8px;
+  box-shadow: 0 0 32px 0px rgba(0, 0, 0, 0.1);
+}
+div.datedropper.thema-regis.pick-l {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+div.datedropper.thema-regisbefore,
+div.datedropper.thema-regis.pick-submit,
+div.datedropper.thema-regis.pick-lg-b .pick-sl:before,
+div.datedropper.thema-regis.pick-m,
+div.datedropper.thema-regis.pick-lg-h {
+  background-color: #F44336;
+}
+div.datedropper.thema-regis.pick-y.pick-jump,
+div.datedropper.thema-regis.pick li span,
+div.datedropper.thema-regis.pick-lg-b .pick-wke,
+div.datedropper.thema-regis.pick-btn {
+  color: #F44336;
+}
+div.datedropper.thema-regis.picker,
+div.datedropper.thema-regis.pick-l {
+  background-color: #FFF;
+}
+div.datedropper.thema-regis.picker,
+div.datedropper.thema-regis.pick-arw,
+div.datedropper.thema-regis.pick-l {
+  color: #4D4D4D;
+}
+div.datedropper.thema-regis.pick-m,
+div.datedropper.thema-regis.pick-m .pick-arw,
+div.datedropper.thema-regis.pick-lg-h,
+div.datedropper.thema-regis.pick-lg-b .pick-sl,
+div.datedropper.thema-regis.pick-submit {
+  color: #FFF;
+}
+div.datedropper.thema-regispicker-tiny:before,
+div.datedropper.thema-regispicker-tiny .pick-m {
+  background-color: #FFF;
+}
+div.datedropper.thema-regispicker-tiny .pick-m,
+div.datedropper.thema-regispicker-tiny .pick-m .pick-arw {
+  color: #4D4D4D;
+}
+div.datedropper.thema-regis.picker-lkd .pick-submit {
+  background-color: #FFF;
+  color: #4D4D4D;
+}
+
