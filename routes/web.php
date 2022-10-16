@@ -18,7 +18,7 @@ Route::middleware('guest')->group(function(){
 Route::middleware('auth')->group(function(){
     Route::controller(PanelController::class)->group(function(){
         Route::get('/dashboard','dashboard')->name('dashboard')->middleware('levels:super');
-        Route::get('/default','default')->name('default');
+        Route::get('/home','default')->name('default');
         Route::post('/logout',[AuthController::class,'logout'])->name('logout');
     });
     Route::post('/logout',[AuthController::class,'logout']);
