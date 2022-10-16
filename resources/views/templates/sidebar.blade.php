@@ -3,7 +3,7 @@
     <a class="fw-semibold text-dual" href="#">
       <span class="smini-hide">
         <i class="fa fa-circle-notch"></i>
-        Absensi Online
+        {{ config('app.name') }}
       </span>
       <span class="smini-hide fs-5 tracking-wider">
         <!-- <img src="{{ asset('assets/src/favicons/favicon.png') }}" alt="micromacro">  -->
