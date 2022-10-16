@@ -32,7 +32,7 @@
         @endif
 
         <li class="nav-main-item">
-          <a class="nav-main-link {{ Request::is('default') ? 'active' : '' }}" href="{{ route('default') }}">
+          <a class="nav-main-link {{ Request::is('home') ? 'active' : '' }}" href="{{ route('default') }}">
             <i class="nav-main-link-icon fa fa-user"></i>
             <span class="nav-main-link-name">Home</span>
           </a>
